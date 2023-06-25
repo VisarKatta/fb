@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:rgb(222, 221, 221);
+    font-family: Helvetica, sans-serif,Helvetica, sans-serif;
+
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.container{
+    padding: 0 20px;
+    width: 380px;
+    border: 1px solid gray;
+    height: 400vh;
+    background-color:  white;
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: solid 1px black;
+}
+.cover{
+    display: flex;
+    justify-content: center  ;
+    position: relative;
+}
+
+
+.butter-pic{
+    
+    width: 100%;
+    height: 200px ;
+    object-fit: cover;
+}
+.profile-pic{
+    position: absolute;
+    left: 10px;
+    bottom: -40px;
+}
+.d1{
+    position: relative;
+}
+.butter-pf{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px solid white;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(28, 26, 26, 0.961);
+    padding: 6px 7px;
+    border-radius: 50%;
+    border-radius: 2px solid black;
+    
+}
+#camera{
+    color: white;
+}
+.main{
+    margin-top: 50px;
+}
+#camera4{
+    color: white;
+}
+.icon1{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    background-color: rgba(28, 26, 26, 0.961);
+    padding: 6px 7px;
+    border-radius: 50%;
+    border-radius: 2px solid black;
+}
+.name{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.bio{
+    color: black;
+    margin-top: 9px;
+    margin-bottom: 10px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.btn1{
+    
+    color: white;
+    font-weight: 400px;
+    background-color: rgb(12, 116, 243);
+    border: none;
+    border-radius: 4px;
+    
+    font-size: 16px;
+    vertical-align: middle;
+    flex: 1;
+    
+    
+    
+}
+.btn2{
+   
+    color: black;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(222, 221, 221);
+    font-size:16px ;
+    vertical-align: middle;
+    
+    flex: 1;
+    
+}
+#dots{
+    color: black;
+    background-color: rgb(222, 221, 221) ;
+    padding: 11px 13px;
+    border-radius: 4px;
+    font-size: 13px;
+    vertical-align: middle;
+   
+    
+ 
+}
+.second-container{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.location, .Join, .About, .follow{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+#ic{
+    color: rgb(53, 53, 53);
+}
+.p{
+    color: black;
+}
+.foot-btn{
+    margin-top: 1rem;
+    background-color: rgb(222, 221, 221);
+    border: none;
+    padding: 8px 10px ;
+    border-radius: 15px;
+    font-size: 14px;
+
+}
+.foot-btn a{
+    text-decoration: none;
+    color: black;
+}
+.adding-feature{
+    margin-top: 1.2rem;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    column-gap: 1rem;
+
+}
+.first-pic, .second-pic{
+    height: 90px;
+    border-radius: 4px;
+    background-color: rgb(222, 221, 221);
+}
+.first-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#plus{
+    color: black;
+    font-size: 17px;
+}
+.couple-pic{
+    width: 100%;
+    height: 90px;
+    border-radius: 4px;
+}
+.adding-feature-title{
+    display: grid;
+    grid-template-columns: 60px 60px;
+    column-gap: 1rem;
+    margin-top: 10px;
+}
+.new, .xd{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+}
+.edit-detail{
+    margin-top: 0.5rem;
+    display: flex;
+    height: 15px;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 56, 109);
+    color: rgb(0, 153, 255);
+    border-radius: 4px;
+}
+.fri-section{
+   
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   padding-bottom: 20px;
+}
+.number-fri{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fri-profile{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 10px;
+   column-gap: 10px;
+   margin-top: 1rem;
+   
+   
+   
+}
+.fri-info{
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(112, 112, 112, 0.961);
+    
+}
+.pf-name{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.pf-name-pad{
+    padding-bottom: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.img-pf{
+    height: 130px;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+.right-fri div{
+    color: rgb(0, 153, 255);
+    font-size: 13px;
+}
+.div1{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.div2{
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+}
+.see-more{
+    display: flex;
+    margin-top: 1rem;
+    flex: 1;
+    background-color: rgb(222, 221, 221);
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.before-section{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 7px solid  rgba(112, 112, 112, 0.961);
+}
+.first-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post{
+    font-weight: bold;
+}
+.fil{
+    color: rgb(0, 119, 255);
+    font-size: 13px;
+}
+.second-con{
+    margin-top: 1rem;
+}
+.west-pic{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+    border-radius: 20px ;
+
+}
+.second-info{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.third-con{
+    margin-top: 1rem;
+    
+    height: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+   
+}
+.th-con{
+    
+    height: 20px;
+    display: flex;
+    padding-top: 5px;
+    
+    
+}
+.st1, .st2, .st3{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+   
+   
+}
+.st1{
+    border-right: 1px solid black;
+}
+.st2{
+    border-right: 1px solid black;
+}
+.last-con{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 221, 221);
+    padding: 7px 0;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.first-post{
+    margin-top: 1rem;
+}
+.btn-photo{
+    font-weight: bold;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem ;
+
+}
+.first-row img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 7px;
+    
+}
+.first-row{
+    display: flex;
+    vertical-align: top;
+}
+
+.visar-name, .date{
+    font-size: 13px;
+}
+span{
+    font-weight: bold;
+}
+.work{
+   display: flex;
+   justify-content: space-around;
+}
+.date-name-info{
+ margin-right: 80px;
+}
